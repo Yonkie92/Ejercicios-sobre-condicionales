@@ -1,0 +1,16 @@
+"use strict"
+
+//variable que almacena la respuesta del cliente
+var culpable = window.prompt("¿Eres culpable?");
+
+
+//condicion si la respuesta es "si"
+if (culpable == "si") {
+    document.write("iras a la carcel");
+}
+    else if (culpable == "no") { //condicion si la respuesta es no
+    document.write("iras a casa");
+    }
+        else { //condicion si no es ninguna de las 2
+            document.write("la documentacion, por favor");
+    }
